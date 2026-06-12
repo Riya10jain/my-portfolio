@@ -40,8 +40,8 @@ I am Riya Jain, a B.Tech student in Electronics and Communication Engineering wi
 ## 📫 Contact
 
 - GitHub: https://github.com/Riya10jain
-- LinkedIn: Add your LinkedIn profile link
-- Email: Add your email address
+- LinkedIn: https://www.linkedin.com/in/riya-jain-b946562a6/
+- Email: riyajainjain2008@gmail.com
 
 ## ⭐ Feedback
 
