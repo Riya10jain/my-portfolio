@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riya Jain | Java Full Stack Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cursor-glow"></div>
+    <canvas id="hero-canvas"></canvas>
+
+    <nav id="navbar">
+      <div class="logo">RIYA<span>JAIN</span></div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-btn">☰</div>
+    </nav>
+
+    <header id="home">
+      <div class="hero container">
+        <div class="hero-left" data-aos="fade-right">
+          <div class="status-badge"><span class="pulse"></span> Open to Internships & SDE Roles</div>
+          <p class="intro">Hi, I am Riya Jain</p>
+          <h1>
+            Java Developer Crafting<br />
+            Scalable Backends &<br />
+            <span id="typing"></span>
+          </h1>
+          <p>
+            B.Tech ECE student passionate about Java backend development,
+            full-stack web apps and AI-driven solutions.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="resume.docx" class="btn secondary" download
+              >Download Resume</a
+            >
+          </div>
+        </div>
+
+        <div class="hero-right" data-aos="fade-left">
+          <div class="image-ring"></div>
+          <img src="profile.png" alt="Riya Jain" />
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 data-aos="fade-up">About <span>Me</span></h2>
+        <div class="about-grid">
+          <div class="about-card" data-aos="zoom-in">
+            <h3>Who I Am</h3>
+            <p>
+              Aspiring Software Engineer focused on Java, backend systems,
+              problem solving and responsive web development.
+            </p>
+          </div>
+
+          <div class="about-card" data-aos="zoom-in" data-aos-delay="200">
+            <h3>Why Hire Me</h3>
+            <ul>
+              <li>Strong Java Fundamentals</li>
+              <li>Full Stack Development</li>
+              <li>DSA & Problem Solving</li>
+              <li>Backend Oriented Thinking</li>
+              <li>Fast Learner</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section dark">
+      <div class="container">
+        <h2 data-aos="fade-up">Technical <span>Expertise</span></h2>
+
+        <div class="skills-grid">
+          <div class="skill-box" data-aos="fade-up">
+            <h3>Languages</h3>
+            <div class="tags">
+              <span>Java</span>
+              <span>JavaScript</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Tailwind CSS</span>
+            </div>
+          </div>
+
+          <div class="skill-box" data-aos="fade-up" data-aos-delay="200">
+            <h3>Tools</h3>
+            <div class="tags">
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>VS Code</span>
+              <span>Eclipse</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-area">
+          <div class="progress-item">
+            <label>Java</label>
+            <div class="bar"><div style="width: 90%"></div></div>
+          </div>
+
+          <div class="progress-item">
+            <label>JavaScript</label>
+            <div class="bar"><div style="width: 82%"></div></div>
+          </div>
+
+          <div class="progress-item">
+            <label>HTML/CSS</label>
+            <div class="bar"><div style="width: 92%"></div></div>
+          </div>
+
+          <div class="progress-item">
+            <label>DSA</label>
+            <div class="bar"><div style="width: 76%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 data-aos="fade-up">Professional <span>Internships</span></h2>
+
+        <div class="timeline">
+          <div class="timeline-item" data-aos="fade-right">
+            <span class="timeline-meta">Future Ready Talent | Microsoft Azure</span>
+            <h3>Cloud Infrastructure Intern</h3>
+            <p>Mastered cloud infrastructure fundamentals, virtual machine provisioning, deployment concepts, and virtual networks to launch and manage scalable cloud systems.</p>
+          </div>
+
+          <div class="timeline-item" data-aos="fade-left">
+            <span class="timeline-meta">Unified Mentors | Web Development</span>
+            <h3>Full Stack Developer Intern</h3>
+            <p>Engineered dynamic, highly responsive web solutions utilizing modern HTML5, CSS3, JavaScript ES6+, and responsive UI layout architectures.</p>
+          </div>
+
+          <div class="timeline-item" data-aos="fade-right">
+            <span class="timeline-meta">Cognizant / Forage | Data Tech</span>
+            <h3>Data Engineering Virtual Analyst</h3>
+            <p>Practiced designing automated ETL workflows, mock data warehousing schemas, and relational database queries using Python and SQL configurations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section dark">
+      <div class="container">
+        <h2 data-aos="fade-up">Featured <span>Projects</span></h2>
+
+        <!-- Project Filter Controls -->
+        <div class="project-filters" data-aos="fade-up" data-aos-delay="100">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="backend">Backend & Java</button>
+          <button class="filter-btn" data-filter="ai">AI & ML</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 (AI Resume & Interview Platform) - FLAGSHIP FEATURED PROJECT -->
+          <div
+            class="project-card featured"
+            data-category="backend ai"
+            data-aos="zoom-in"
+          >
+            <div class="project-header">
+              <span class="project-badge">Flagship Project</span>
+              <h3>AI-Powered Resume & Interview Platform</h3>
+            </div>
+            <p>
+              A secure full-stack enterprise application with a JWT-secured Spring Boot backend and React/Vite + TS frontend. Integrates Gemini AI to analyze uploaded PDF resumes against job requirements (calculating ATS score, match keywords, and actionable tips), and powers a mock interview simulator that generates custom behavioral questions, evaluates user text answers, and provides scoring, detailed critique, and sample STAR answers.
+            </p>
+            <div class="tags">
+              <span>Java</span>
+              <span>Spring Boot</span>
+              <span>React.js</span>
+              <span>TypeScript</span>
+              <span>Gemini AI</span>
+              <span>JWT Security</span>
+              <span>REST API</span>
+            </div>
+            <div class="links">
+              <a href="https://github.com/Riya10jain/AI-Powered-Interview-Resume-Platform" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                GitHub
+              </a>
+              <button class="btn-demo" id="open-simulator-btn">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                Try Simulator Demo
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 2 (Drowsiness Detection) -->
+          <div class="project-card" data-category="ai" data-aos="zoom-in" data-aos-delay="100">
+            <h3>Drowsiness Detection System</h3>
+            <p>
+              Real-time computer vision safety system monitoring eye closure patterns and facial landmarks to detect fatigue. Uses computer vision models and alert mechanisms to enhance driver safety.
+            </p>
+            <div class="tags">
+              <span>Java</span>
+              <span>OpenCV</span>
+              <span>AI</span>
+              <span>Computer Vision</span>
+            </div>
+            <div class="links">
+              <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="#">Demo</a>
+            </div>
+          </div>
+
+          <!-- Project 3 (Developer Portfolio Website) -->
+          <div class="project-card" data-category="frontend" data-aos="zoom-in" data-aos-delay="200">
+            <h3>Interactive Developer Portfolio</h3>
+            <p>
+              The highly polished, responsive developer portfolio you are viewing. Engineered with custom high-performance HTML5 Canvas constellation particle animations, dynamic filter-based projects grid, glassmorphic UI cards, and smooth CSS3 tracking glow effect.
+            </p>
+            <div class="tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Canvas API</span>
+            </div>
+            <div class="links">
+              <a href="https://github.com/Riya10jain/Portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="#">Live</a>
+            </div>
+          </div>
+
+          <!-- Project 4 (Real-Time Chat App) -->
+          <div class="project-card" data-category="backend frontend" data-aos="zoom-in" data-aos-delay="300">
+            <h3>Real-Time Chat App</h3>
+            <p>
+              Instant messaging platform leveraging WebSockets for low-latency bi-directional messaging, featuring automated message logs, custom user sessions, and clean modern layout design.
+            </p>
+            <div class="tags">
+              <span>JavaScript</span>
+              <span>WebSocket</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+            </div>
+            <div class="links">
+              <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+
+          <!-- Project 5 (Chrome Productivity Extension) -->
+          <div class="project-card" data-category="frontend" data-aos="zoom-in" data-aos-delay="400">
+            <h3>Productivity Chrome Extension</h3>
+            <p>
+              Lightweight browser extension logging and charting user active tab patterns, assisting developer workflows by analyzing focus cycles and blocking distractions dynamically.
+            </p>
+            <div class="tags">
+              <span>JavaScript</span>
+              <span>Chrome Web APIs</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+            </div>
+            <div class="links">
+              <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 data-aos="fade-up">Currently <span>Building</span></h2>
+        <div class="build-grid">
+          <div class="build-card">Java Backend APIs</div>
+          <div class="build-card">AI Detection Improvements</div>
+          <div class="build-card">Advanced DSA Practice</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section dark">
+      <div class="container center">
+        <h2 data-aos="fade-up">Let's Build <span>Something</span></h2>
+        <p>Open to internships, collaborations and software roles.</p>
+
+        <div class="contact-links">
+          <a href="https://github.com/Riya10jain">GitHub</a>
+          <a href="https://www.linkedin.com/in/riya-jain-b946562a6/"
+            >LinkedIn</a
+          >
+          <a href="riyajainjain2008@gmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Simulator Modal -->
+    <div id="simulator-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title-area">
+            <span class="modal-badge">Interactive Demo</span>
+            <h2>AI Platform Simulator</h2>
+          </div>
+          <button class="close-btn" id="close-simulator-btn">&times;</button>
+        </div>
+        
+        <div class="modal-tabs">
+          <button class="tab-btn active" data-tab="resume-tab">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-dasharray="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            Resume ATS Screener
+          </button>
+          <button class="tab-btn" data-tab="interview-tab">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            Mock Interview Practice
+          </button>
+        </div>
+        
+        <div class="modal-body">
+          <!-- Tab 1: Resume ATS Screener -->
+          <div id="resume-tab" class="tab-content active">
+            <div class="simulator-layout">
+              <div class="sim-controls">
+                <h3>Select a Candidate Profile</h3>
+                <p class="sim-instruction">Pick a sample resume profile to run through the AI screener, or upload a custom one to simulate the PDF parser.</p>
+                
+                <div class="resume-presets">
+                  <button class="preset-btn active" data-resume="java-backend">
+                    <span class="preset-title">Java Backend Developer</span>
+                    <span class="preset-meta">Tech: Java, Spring Boot, SQL, AWS</span>
+                  </button>
+                  <button class="preset-btn" data-resume="frontend-react">
+                    <span class="preset-title">Frontend React Developer</span>
+                    <span class="preset-meta">Tech: React, JS, Tailwind, Redux</span>
+                  </button>
+                  <button class="preset-btn" data-resume="fresher-intern">
+                    <span class="preset-title">Entry-Level Developer Resume</span>
+                    <span class="preset-meta">Tech: HTML, CSS, JavaScript (fresher)</span>
+                  </button>
+                </div>
+                
+                <div class="drag-drop-area" id="drag-drop-resume">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                  <p>Or drag & drop your PDF resume here</p>
+                  <span>Simulate parsing your own file</span>
+                  <input type="file" id="resume-file-input" style="display: none;" accept=".pdf,.docx,.txt" />
+                </div>
+                
+                <button class="action-btn" id="analyze-resume-btn">
+                  <span>Analyze Resume with Gemini AI</span>
+                  <div class="loader-spinner" style="display: none;"></div>
+                </button>
+              </div>
+              
+              <div class="sim-output">
+                <div class="empty-state" id="resume-empty-state">
+                  <div class="radar-scan"></div>
+                  <p>Select a profile and click "Analyze" to run the ATS scanner simulator</p>
+                </div>
+                
+                <div class="result-card" id="resume-result" style="display: none;">
+                  <div class="result-header">
+                    <div class="score-container">
+                      <svg class="circular-progress" viewBox="0 0 100 100">
+                        <circle class="bg" cx="50" cy="50" r="40"></circle>
+                        <circle class="fg" id="score-circle" cx="50" cy="50" r="40"></circle>
+                      </svg>
+                      <div class="score-text">
+                        <span class="score-num" id="ats-score">85</span>
+                        <span class="score-label">ATS Score</span>
+                      </div>
+                    </div>
+                    <div class="result-summary">
+                      <h4 id="profile-result-title">Java Backend Developer</h4>
+                      <p id="ats-match-status">High match potential for Mid-Level SDE roles.</p>
+                    </div>
+                  </div>
+                  
+                  <div class="keywords-analysis">
+                    <h5>Keyword Match Matrix</h5>
+                    <div class="keyword-groups">
+                      <div>
+                        <span class="kw-label success">Matched (Strong)</span>
+                        <div class="tags" id="matched-keywords">
+                          <!-- Filled dynamically -->
+                        </div>
+                      </div>
+                      <div>
+                        <span class="kw-label warning">Missing (Recommended)</span>
+                        <div class="tags" id="missing-keywords">
+                          <!-- Filled dynamically -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="ai-feedback">
+                    <h5>Gemini AI Recommendations</h5>
+                    <ul class="feedback-list" id="feedback-list">
+                      <!-- Filled dynamically -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Tab 2: Mock Interview Simulator -->
+          <div id="interview-tab" class="tab-content">
+            <div class="simulator-layout">
+              <div class="sim-controls">
+                <h3>Select Tech Domain</h3>
+                <div class="domain-selector">
+                  <button class="domain-btn active" data-domain="java">Java Backend</button>
+                  <button class="domain-btn" data-domain="react">Frontend / React</button>
+                  <button class="domain-btn" data-domain="general">Behavioral (HR)</button>
+                </div>
+                
+                <div class="interview-setup" style="margin-top: 10px;">
+                  <button class="action-btn" id="generate-question-btn" style="width: 100%;">Generate Custom AI Question</button>
+                </div>
+                
+                <div class="question-container" id="question-box" style="display: none; margin-top: 15px;">
+                  <div class="question-header">
+                    <span class="question-badge">Gemini AI Prompt</span>
+                  </div>
+                  <p class="question-text" id="interview-question-text">Select a domain and click "Generate Custom AI Question" to start practicing.</p>
+                </div>
+              </div>
+              
+              <div class="sim-output">
+                <div class="answer-container" id="answer-box" style="display: none;">
+                  <h3>Your Answer</h3>
+                  <textarea id="candidate-answer" placeholder="Type your structured answer here (STAR format recommended: Situation, Task, Action, Result)..."></textarea>
+                  <div class="answer-actions">
+                    <button class="preset-answer-btn" id="load-sample-answer-btn">Load Preset Answer</button>
+                    <button class="action-btn" id="evaluate-answer-btn" style="flex: 1;">
+                      <span>Submit Answer for Evaluation</span>
+                      <div class="loader-spinner" style="display: none;"></div>
+                    </button>
+                  </div>
+                </div>
+                
+                <div class="empty-state" id="interview-empty-state">
+                  <p>Generate a question and supply your answer to see the AI critique report</p>
+                </div>
+                
+                <div class="result-card" id="interview-result" style="display: none;">
+                  <div class="evaluation-header">
+                    <div class="eval-stat">
+                      <span class="eval-score-num" id="interview-score">8.5/10</span>
+                      <span class="eval-score-label">Overall Rating</span>
+                    </div>
+                    <div class="eval-stat" style="margin-left: 20px;">
+                      <span class="eval-level" id="clarity-level">High</span>
+                      <span class="eval-score-label">Clarity & Structure</span>
+                    </div>
+                  </div>
+                  
+                  <div class="ai-feedback">
+                    <h5>Critique Analysis</h5>
+                    <p id="interview-critique">Your answer provides a good structural response but lacks depth in discussing thread safety.</p>
+                  </div>
+                  
+                  <div class="star-breakdown">
+                    <h5>STAR Assessment</h5>
+                    <div class="star-steps">
+                      <div class="star-step"><span class="star-badge s">S</span><p id="star-s">...</p></div>
+                      <div class="star-step"><span class="star-badge t">T</span><p id="star-t">...</p></div>
+                      <div class="star-step"><span class="star-badge a">A</span><p id="star-a">...</p></div>
+                      <div class="star-step"><span class="star-badge r">R</span><p id="star-r">...</p></div>
+                    </div>
+                  </div>
+                  
+                  <div class="model-answer">
+                    <h5>Gemini Recommended Model Answer</h5>
+                    <p id="model-answer-text">Recommended response structure details...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>© 2026 Riya Jain | Designed & Developed by Me</footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
